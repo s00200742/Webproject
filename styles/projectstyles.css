@@ -1,0 +1,147 @@
+.navbar
+{
+overflow: hidden;
+background-color: green;
+position: relative;
+padding: 10px;
+top: 100%;
+width: 100%;
+transition: margin-left .5s;
+padding-top: 10px;
+margin-bottom: 25px !important;
+}
+
+.navbar ul
+{
+text-align: center;
+font-size: 1.5em;
+
+}
+
+.navbar ul li
+{
+list-style-type: none;
+background-color: aqua;
+display: inline;
+padding: 10px;
+margin: 10px;
+border: 4px solid blue;
+border-radius: 12px;
+
+}
+
+.navbar ul li a
+{
+color: aliceblue;
+text-decoration: none;
+
+}
+
+.navbar ul li :hover
+{
+    background-color: chocolate;
+    
+}
+
+header
+{
+    background-image: url(../images/Smart-city-concept.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 15px;
+    text-align: center;
+    transition: margin-left .5s;
+}
+
+footer 
+{
+    padding:0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: dodgerblue;
+    transition: margin-left .5s;
+}
+
+footer p 
+{
+    text-align: center ;
+    color: floralwhite;
+    transition: margin-left .5s;
+}
+
+p
+{
+    text-align: center;
+}
+
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('../images/GettyImages-1074457018.webp');
+    transition: margin-left .5s;
+}
+
+#active
+{
+    border: 4px solid rgb(123,211,152);
+}
+h1,h2,h3
+{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    transition: margin-left .5s;
+}
+
+img /* the image will contain a red border */
+{
+    border: 2px solid rgb(0, 255, 0);
+    transition: margin-left .5s;
+}
+
+.sidenav 
+{   
+  height: 100%; 
+  width: 160px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: rgb(21, 191, 197); 
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+
+.sidenav a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    transition: 0.3s;
+  }
+
+  table
+{
+    width: 100%;
+    border: 2px solid green;
+    border-collapse: collapse;
+    font-size: 30px;
+    margin: 30px;
+    padding:4%;
+}
+
+th,td,tr
+{
+    border: 2px solid teal;
+    text-align: left; 
+}
